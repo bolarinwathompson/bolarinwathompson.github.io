@@ -9,28 +9,28 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: Segun Bolarinwa
-description: "Hi I'm Segun, and I'm a Data Scientist and Economist.  My portfolio focuses on interesting projects I've recently undertaken, with a strong emphasis on business impact. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: "Hi I'm Segun, and I'm a Data Scientist and Economist. My portfolio focuses on interesting projects I've recently undertaken, with a strong emphasis on business impact. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
+baseurl: ""
+url: "https://bolarinwathompson.github.io"
 
 #-------------------------------
 # About Section
 subtitle: Data Science <span style="color:#f58506"> Portfolio </span>
 location: "Norwich, UK"
-resume_url: /docs/Bolarinwa_Data_Scientist_CV.pdf
-avatar_image: /img/Linkedin-Pic.jpg
+resume_url: "/docs/Bolarinwa_Data_Scientist_CV.pdf"
+avatar_image: "/img/Linkedin-Pic.jpg"
 
 #-------------------------------
 # Contact links
-linkedln: "https://www.linkedin.com/in/segun-bolarinwa" # Add your linkedln handle
-github: "https://github.com/bolarinwathompson"  # Add your github handle
+linkedin: "https://www.linkedin.com/in/segun-bolarinwa"
+github: "https://github.com/bolarinwathompson"
 
 paginate: 6
 paginate_path: "/page/:num"
 
 sass:
   sass_dir: _sass
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed
 
 defaults:
   - scope:
@@ -39,16 +39,3 @@ defaults:
       layout: post
       read_time: true
       share: false
-
-
-#-------------------------------
-# Exclude from processing.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
