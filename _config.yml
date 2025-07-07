@@ -9,7 +9,7 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: Segun Bolarinwa, Ph.D
-description: "Hi I'm Segun, and I'm a Data Scientist and Economist. My portfolio focuses on interesting projects I've recently undertaken, with a strong emphasis on business impact. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
+description: "Hi I'm Segun, and I'm a Data and Decision Scientist and Economist. My portfolio focuses on interesting projects I've recently undertaken, with a strong emphasis on business impact. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
 baseurl: ""
 url: "https://bolarinwathompson.github.io"
 
